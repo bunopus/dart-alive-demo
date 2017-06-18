@@ -11,6 +11,10 @@ class KingOfTheBritain {
   final bool hasCrown = true;
   void assemblyKnights() => print('You shall assemble!');
 
+  bool operator ==(Object someKnight) {
+    return false; // NO ONE CAN BE EQUALS TO THE KING!
+  }
+
 }
 
 class Knight {
