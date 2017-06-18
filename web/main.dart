@@ -3,7 +3,9 @@
 
 
 void main() {
-  KingOfTheBritain Arthur = new KingOfTheBritain();
+  List<Knight> knights = [new SomePoorKnight()];
+  List<KingOfTheBritain> kings = knights;
+
 }
 
 
@@ -12,5 +14,8 @@ class KingOfTheBritain extends Knight{
 }
 
 class Knight {
-  void bowBefore(Knight knight) {}
+}
+
+class SomePoorKnight extends Knight {
+
 }
