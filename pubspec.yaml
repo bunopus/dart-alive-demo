@@ -16,6 +16,8 @@ dev_dependencies:
 
 transformers:
 - dart_to_js_script_rewriter
+- $dart2js:
+    minify: false
 
 # Uncomment the following in sdk 1.24+ to make pub serve
 # use dartdevc (webdev.dartlang.org/tools/dartdevc).
