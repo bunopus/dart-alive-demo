@@ -3,10 +3,18 @@
 
 
 void main() {
+ var Arthur = new KingOfTheBritain();
 }
 
 
 class KingOfTheBritain {
   final bool hasCrown = true;
   void assemblyKnights() => print('You shall assemble!');
+
+}
+
+class Knight {
+  void rideHorse(){
+
+  }
 }

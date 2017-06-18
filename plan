@@ -1,0 +1,17 @@
+1. Какие пакетные менеджеры вы знаете? Пакетный менеджер pub (запускать я его конечно не буду)
+2. pubspec.yaml (такой же, как и package.json)
+3. index.html (main.dart, про deferred потом)
+4. main.dart (точка входа main)
+5. Как это всё собирается? Какие сборщики вы знаете? В Дарте это pub serve
+6. Отладка в браузере и в webstorm (сурсмапы)
+---------------------------------------------
+7. Давайте поговорим об объектно-ориентированности: git checkout 1
+8. KingOfTheBritain компилируется в ES6
+9. Tree Shaking - Шутка про встряхивание дерева (pub build)
+   - пустой main
+   - var arthur = new KingOfTheBritain();
+   - print(arthur.assemblyKnights());
+   - print(arthur.hasCrown);
+   - print(arthur);
+10. ООП - abstract, implements, extends, with (mixin)
+11. 
