@@ -3,23 +3,14 @@
 
 
 void main() {
- var Arthur = new KingOfTheBritain();
- print(Arthur is Knight);
+  KingOfTheBritain Arthur = new KingOfTheBritain();
 }
 
 
-class KingOfTheBritain implements Knight{
-  final bool hasCrown = true;
-  void assemblyKnights() => print('You shall assemble!');
-
-  @override
-  void rideHorse() {
-    // TODO: implement rideHorse
-  }
+class KingOfTheBritain extends Knight{
+  //...
 }
 
 class Knight {
-  void rideHorse(){
-
-  }
+  void bowBefore(Knight knight) {}
 }
