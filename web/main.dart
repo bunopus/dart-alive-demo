@@ -4,17 +4,18 @@
 
 void main() {
  var Arthur = new KingOfTheBritain();
+ print(Arthur is Knight);
 }
 
 
-class KingOfTheBritain {
+class KingOfTheBritain implements Knight{
   final bool hasCrown = true;
   void assemblyKnights() => print('You shall assemble!');
 
-  bool operator ==(Object someKnight) {
-    return false; // NO ONE CAN BE EQUALS TO THE KING!
+  @override
+  void rideHorse() {
+    // TODO: implement rideHorse
   }
-
 }
 
 class Knight {
