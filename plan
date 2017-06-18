@@ -13,5 +13,31 @@
    - print(arthur.assemblyKnights());
    - print(arthur.hasCrown);
    - print(arthur);
-10. ООП - abstract, implements, extends, with (mixin)
-11. 
+----------------------------------------------   
+11. git checkout 2
+10. ООП - наследование: abstract, implements, extends, with (mixin), приватные поля
+----------------------------------------------
+11. git checkout 3
+11. Перегрузки методов нет (одинаковые имена в одном объекте), из-за JS, но есть перегрузка операторов
+    Обратите внимание на ошибку, что надо переопределить hashCode
+----------------------------------------------    
+12. Типизация git checkout 4
+13. Интерфейсы доступны в рантайме (привет TS)
+----------------------------------------------
+14. git checkout 5
+14. Sound Dart Strong mode is a sound static type system that uses a combination of static and runtime checks to ensure your code is type safe—that you can never see a value whose runtime type does not match its static type.
+  
+  KingOfTheBritain Arthur = new Knight();
+15. Давайте переопределим метод
+ @override
+  void bowBefore(KingOfTheBritain some) {
+  }
+  не получится: ведь тогда мы бы могли написать 
+  class Vilager extends Knight
+  и склониться перед ним
+----------------------------------------------
+16. git checkout 5  
+17. Задача, с которой не справляется TS. Там, где не хватает статического анализа, справляется runtime type checking
+----------------------------------------------
+18. О богатой библиотеке: какую библиотеку обычно юзают для промизов? В дарте это Дарт
+19. git checkout 6

@@ -1,21 +1,13 @@
 // Copyright (c) 2017, kestrel. All rights reserved. Use of this source code
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
+import 'dart:async';
+
 
 void main() {
-  List<Knight> knights = [new SomePoorKnight()];
-  List<KingOfTheBritain> kings = knights;
-
+  waitForIt().then((_) => print('Hello!'));
 }
 
-
-class KingOfTheBritain extends Knight{
-  //...
-}
-
-class Knight {
-}
-
-class SomePoorKnight extends Knight {
-
+Future waitForIt() {
+  return new Future.delayed(new Duration(milliseconds: 100));
 }
